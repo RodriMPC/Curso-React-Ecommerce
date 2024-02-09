@@ -1,0 +1,16 @@
+
+.Counter {
+    border: 1px solid #060606;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    
+  }
+.Controls{
+    display: flex;
+    padding: 20px;
+}
+.Number{
+    padding: 10px;
+}

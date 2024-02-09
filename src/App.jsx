@@ -1,19 +1,15 @@
-
-import Button from "./components/Button/Button"
-import ItemCount from "./components/ItemCount/ItemCount"
-import Escudo from "./components/Escudo/Escudo"
+import NavBar from "./components/NavBar/NavBar"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
 
 function App() {
   
 
   return (
     <>
-    <Escudo/>
-    <Button label={'Hola'} handleClick={() => console.log('Hola')}/>
-    <Button label={'Loco'} handleClick={() => console.log('Loco')}/>
-    <Button label={'Todo bien?'} handleClick={() => console.log('Todo bien?')}/>
-    <ItemCount/>
-    
+    <NavBar/>
+    <ItemListContainer greeting={'Catálogo'}/>   
+    <ItemDetailContainer/>
     </>
   )
 }

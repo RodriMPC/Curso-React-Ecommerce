@@ -1,0 +1,13 @@
+.NavBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5%;
+    
+}
+.logo{
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
