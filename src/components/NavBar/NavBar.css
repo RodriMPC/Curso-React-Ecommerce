@@ -6,8 +6,27 @@
     padding: 15px 5%;
     
 }
+.Titulo{
+    text-decoration: none;
+}
+h1{
+    
+    margin: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(166, 14, 14);
+    -webkit-text-stroke: 0.1px rgb(136, 113, 113) ;
+    cursor: pointer;
+}
 .logo{
     width: 100px;
     border-radius: 20px;
     cursor: pointer;
+}
+.Categoria{
+    
+    color: black;
+    font-size: 20px;
+    padding: 30px;
+    margin: 25px;
+    text-decoration: none;
 }

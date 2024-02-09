@@ -1,0 +1,26 @@
+.CardItem {
+    display: inline-block;
+    background-color: #3f0101;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(134, 14, 18, 0.1);
+    margin: 150px; 
+  }
+  .Info{
+    padding: 10px;
+    margin: 0.5px;
+  }
+  .ItemFooter{
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  .ItemFooter:hover {
+    background-color: #0056b3;
+  }
+  .Option{
+    background-color: #3f0101;
+    color: #000000;
+    text-decoration: none;
+  }
